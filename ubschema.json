@@ -1,0 +1,19 @@
+{
+  "schemas": [
+    {
+      "id": "req-required-core-fields",
+      "message": "Requirements benötigen eine ID und einen Status.",
+      "select": {
+        "properties": {
+          "type": { "const": "req" }
+        },
+        "required": ["type"]
+      },
+      "validate": {
+        "local": {
+          "required": ["id", "status"]
+        }
+      }
+    }
+  ]
+}
