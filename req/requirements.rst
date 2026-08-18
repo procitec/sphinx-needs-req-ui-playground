@@ -3,7 +3,7 @@ Requirements
 
 .. req:: Benutzer kann sich anmelden
    :id: REQ_LOGIN_01
-   :status: open
+   :status: accepted
 
    Der Benutzer kann sich mit **Benutzername** und Passwort anmelden.
 
