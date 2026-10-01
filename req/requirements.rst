@@ -9,7 +9,7 @@ Requirements
 
 .. req:: Benutzer kann sich abmelden
    :id: REQ_LOGOUT_01
-   :status: accepted
+   :status: implemented
 
    Der angemeldete Benutzer kann seine Sitzung gezielt beenden.
 
