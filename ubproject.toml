@@ -2,7 +2,9 @@
 
 [project]
 name = "Requirements Playground"
-srcdir = "."
+
+[source]
+dir = "."
 
 [needs]
 id_required = true
